@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="text_blue">#0265AD</color>
+	<color name="text_gray">#414042</color>
+	<color name="white">#FFFFFF</color>
+    <color name="text_black">#000000</color>
+    <color name="text_red">#D41E48</color>
+    <color name="text_green">#5D9F13</color>
+	<color name="cell_orange">#E8BD5E</color>
+	<color name="header_blue">#7BAFD7</color>
+	
+	<color name="project_stage_group_label_light_blue">#E1EFF8</color>
+	<color name="project_label_group_blue">#5DA0D5</color>
+
+	<color name="top_title">#0265ae</color>
+	<color name="table_fact_plan_cell_background">#CCCDE2F0</color>
+	
+	<color name="transparent">#00000000</color>
+
+</resources>

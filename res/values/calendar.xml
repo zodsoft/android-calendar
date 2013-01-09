@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="months">
+        <item>Январь</item>
+        <item>Февраль</item>
+        <item>Март</item>
+        <item>Апрель</item>
+        <item>Май</item>
+        <item>Июнь</item>
+        <item>Июль</item>
+        <item>Август</item>
+        <item>Сентябрь</item>
+        <item>Октябрь</item>
+        <item>Ноябрь</item>
+        <item>Декабрь</item>
+    </string-array>
+    
+    <string name="mon">Пн</string>
+    <string name="tue">Вт</string>
+    <string name="wed">Ср</string>
+    <string name="thu">Чт</string>
+    <string name="fri">Пт</string>
+    <string name="sat">Сб</string>
+    <string name="sun">Вс</string>
+    
+	<string name="calendar_select_description">Выберите месяц</string>
+	<string name="calendar_day_description">Выберите день</string>
+	
+	<color name="calendarBackground">#e4eef8</color>
+    <color name="calendarGrid">#c8d2dc</color>
+    <color name="calendarMonthColor">#4582b1</color>
+    <color name="calendarTextBlack">#414042</color>
+    <color name="calendarTextGray">#abaeb1</color>
+    <color name="calendarCellGray">#848692</color>
+    <color name="calendarCellGreen">#60a73d</color>
+    
+    <item type="id" name="drilldown_id"/>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="132sp"
+    android:layout_height="80sp"
+    android:background="@drawable/stroke">
+    
+	<ImageView 
+	    android:id="@+id/calendar_cell_background" 
+	    android:layout_height="77.7sp" 
+	    android:layout_width="168.7sp"
+	    android:layout_centerInParent="true"/>
+    <ImageView
+        android:id="@+id/calendar_cell_triangle"
+        android:contentDescription="@string/calendar_day_description"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:padding="2sp"
+        android:src="@drawable/angle"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/calendar_cell_tasks_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="8sp"
+        android:paddingBottom="5sp"
+        android:textColor="@color/text_black"
+        android:textSize="14sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/calendar_cell_month_day"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="8sp"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:layout_centerInParent="true"
+        android:textColor="@color/text_black" />
+
+</RelativeLayout>
